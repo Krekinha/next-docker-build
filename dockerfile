@@ -37,7 +37,7 @@ USER nextjs
 EXPOSE 3030
 
 ENV PORT 3030
-ENV HOSTNAME "0.0.0.0"
+# ENV HOSTNAME "0.0.0.0"
 
 # Standalone output para não precisar usar todas as libs dentro do node_modules
 CMD ["node", "server.js"]
